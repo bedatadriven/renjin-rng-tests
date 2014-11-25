@@ -1,11 +1,12 @@
 package org.renjin.dieharder;
 
-import com.google.common.primitives.UnsignedBytes;
 import org.apache.commons.math.random.MersenneTwister;
-import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
