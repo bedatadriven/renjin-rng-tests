@@ -169,7 +169,7 @@ public class DieHarder {
       StringBuilder report = new StringBuilder();
       String line;
       while((line = reader.readLine()) != null) {
-        printStatus(line);
+//        printStatus(line);
         report.append(line).append("\n");
       }
       return new Report(report.toString());

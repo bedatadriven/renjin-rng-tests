@@ -44,6 +44,7 @@
           <parallel>methods</parallel>
           <threadCount>2</threadCount>
           <forkCount>0</forkCount>
+          <redirectTestOutputToFile>true</redirectTestOutputToFile>
         </configuration>
       </plugin>
     </plugins>
